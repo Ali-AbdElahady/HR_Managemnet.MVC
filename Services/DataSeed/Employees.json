@@ -1,0 +1,122 @@
+[
+  {
+    "FirstName": "Alice",
+    "LastName": "Williams",
+    "Email": "alice.williams@example.com",
+    "PhoneNumber": "1234567890",
+    "HireDate": "2020-02-15",
+    "Salary": 70000,
+    "DepartmentId": 1,
+    "JobTitle": "Software Developer"
+  },
+  {
+    "FirstName": "Bob",
+    "LastName": "Taylor",
+    "Email": "bob.taylor@example.com",
+    "PhoneNumber": "0987654321",
+    "HireDate": "2018-06-01",
+    "Salary": 85000,
+    "DepartmentId": 2,
+    "JobTitle": "QA Engineer"
+  },
+  {
+    "FirstName": "Chloe",
+    "LastName": "Lee",
+    "Email": "chloe.lee@example.com",
+    "PhoneNumber": "1122334455",
+    "HireDate": "2019-10-23",
+    "Salary": 60000,
+    "DepartmentId": 3,
+    "JobTitle": "HR Specialist"
+  },
+  {
+    "FirstName": "David",
+    "LastName": "Wilson",
+    "Email": "david.wilson@example.com",
+    "PhoneNumber": "6677889900",
+    "HireDate": "2021-04-10",
+    "Salary": 55000,
+    "DepartmentId": 4,
+    "JobTitle": "Sales Representative"
+  },
+  {
+    "FirstName": "Emma",
+    "LastName": "Brown",
+    "Email": "emma.brown@example.com",
+    "PhoneNumber": "4455667788",
+    "HireDate": "2022-01-05",
+    "Salary": 75000,
+    "DepartmentId": 1,
+    "JobTitle": "Frontend Developer"
+  },
+  {
+    "FirstName": "Frank",
+    "LastName": "Johnson",
+    "Email": "frank.johnson@example.com",
+    "PhoneNumber": "5566778899",
+    "HireDate": "2020-08-19",
+    "Salary": 72000,
+    "DepartmentId": 2,
+    "JobTitle": "Automation Tester"
+  },
+  {
+    "FirstName": "Grace",
+    "LastName": "Martinez",
+    "Email": "grace.martinez@example.com",
+    "PhoneNumber": "2233445566",
+    "HireDate": "2019-03-27",
+    "Salary": 58000,
+    "DepartmentId": 3,
+    "JobTitle": "Recruiter"
+  },
+  {
+    "FirstName": "Hannah",
+    "LastName": "Clark",
+    "Email": "hannah.clark@example.com",
+    "PhoneNumber": "7788990011",
+    "HireDate": "2021-12-15",
+    "Salary": 67000,
+    "DepartmentId": 4,
+    "JobTitle": "Sales Associate"
+  },
+  {
+    "FirstName": "Isabella",
+    "LastName": "Hernandez",
+    "Email": "isabella.hernandez@example.com",
+    "PhoneNumber": "3344556677",
+    "HireDate": "2020-05-22",
+    "Salary": 82000,
+    "DepartmentId": 1,
+    "JobTitle": "Backend Developer"
+  },
+  {
+    "FirstName": "Jack",
+    "LastName": "Lopez",
+    "Email": "jack.lopez@example.com",
+    "PhoneNumber": "9988776655",
+    "HireDate": "2018-11-11",
+    "Salary": 86000,
+    "DepartmentId": 2,
+    "JobTitle": "Performance Tester"
+  },
+  {
+    "FirstName": "Katherine",
+    "LastName": "Garcia",
+    "Email": "katherine.garcia@example.com",
+    "PhoneNumber": "6655443322",
+    "HireDate": "2021-07-29",
+    "Salary": 62000,
+    "DepartmentId": 3,
+    "JobTitle": "HR Coordinator"
+  },
+  {
+    "FirstName": "Liam",
+    "LastName": "Davis",
+    "Email": "liam.davis@example.com",
+    "PhoneNumber": "5566770099",
+    "HireDate": "2022-03-03",
+    "Salary": 59000,
+    "DepartmentId": 4,
+    "JobTitle": "Sales Executive"
+  }
+]

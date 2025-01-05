@@ -1,0 +1,9 @@
+﻿@model string
+
+<form asp-action="@Model" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label for="excelFile">Select Excel File</label>
+        <input type="file" id="excelFile" name="excelFile" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Upload</button>
+</form>

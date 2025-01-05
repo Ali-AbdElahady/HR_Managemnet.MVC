@@ -1,0 +1,233 @@
+[
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-01",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-02",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-03",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-04",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-05",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-06",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-09",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-10",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-11",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-12",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-13",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-16",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-17",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-18",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-19",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-20",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-23",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-24",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-26",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-27",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-30",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 1,
+    "Date": "2024-12-31",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 2,
+    "Date": "2024-12-01",
+    "TimeIn": "08:45:00",
+    "TimeOut": "16:30:00",
+    "Notes": "Left early"
+  },
+  {
+    "EmployeeId": 3,
+    "Date": "2024-12-01",
+    "TimeIn": "09:00:00",
+    "TimeOut": "17:30:00",
+    "Notes": "Late arrival"
+  },
+  {
+    "EmployeeId": 4,
+    "Date": "2024-12-01",
+    "TimeIn": "08:15:00",
+    "TimeOut": "16:45:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 5,
+    "Date": "2024-12-01",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 6,
+    "Date": "2024-12-01",
+    "TimeIn": "09:05:00",
+    "TimeOut": "16:55:00",
+    "Notes": "Late arrival"
+  },
+  {
+    "EmployeeId": 7,
+    "Date": "2024-12-01",
+    "TimeIn": "08:20:00",
+    "TimeOut": "17:10:00",
+    "Notes": "Stayed late"
+  },
+  {
+    "EmployeeId": 8,
+    "Date": "2024-12-01",
+    "TimeIn": "08:25:00",
+    "TimeOut": "16:50:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 9,
+    "Date": "2024-12-01",
+    "TimeIn": "08:35:00",
+    "TimeOut": "17:00:00",
+    "Notes": "On time"
+  },
+  {
+    "EmployeeId": 10,
+    "Date": "2024-12-01",
+    "TimeIn": "08:40:00",
+    "TimeOut": "16:45:00",
+    "Notes": "Left early"
+  },
+  {
+    "EmployeeId": 11,
+    "Date": "2024-12-01",
+    "TimeIn": "08:30:00",
+    "TimeOut": "17:15:00",
+    "Notes": "Stayed late"
+  },
+  {
+    "EmployeeId": 12,
+    "Date": "2024-12-01",
+    "TimeIn": "08:50:00",
+    "TimeOut": "16:50:00",
+    "Notes": "Late arrival"
+  }
+]

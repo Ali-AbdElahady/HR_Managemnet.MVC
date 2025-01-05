@@ -1,0 +1,109 @@
+﻿@using HR_Managemnet.PL.Helpers
+@model AttendancePageResult
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>List of Attendances</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form method="post" class="row justify-content-center" asp-action="index">
+    <div class="row justify-content-center">
+        <div class="form-group col-md-6" style="position:relative">
+            <label for="EmployeeSearch">Search and Select Employee:</label>
+            <input type="text" id="EmployeeSearch" class="form-control" placeholder="Start typing to search..." autocomplete="off" asp-for="EmpName">
+            <ul id="employeeResults" class="list-group" style="display: none; position: absolute; z-index: 1000; width: 100%;">
+                <!-- Dynamic search results will appear here -->
+            </ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Date">Date:</label>
+        <input type="date" id="DateStart" name="DateStart" class="form-control" asp-for="DateStart" />
+        <label for="Date">Date:</label>
+        <input type="date" id="DateEnd" name="DateEnd" class="form-control" asp-for="DateEnd" />
+    </div>
+    <!-- Other form fields -->
+    <input type="hidden" id="selectedEmployeeId" name="EmployeeId" asp-for="EmployeeId">
+    <button type="submit" class="btn btn-primary mt-3 w-25">Submit</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].EmployeeId)
+            </th>
+            <th>
+                Employee Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].TimeIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].TimeOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data[0].Notes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Data) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.FirstName) @Html.DisplayFor(modelItem => item.Employee.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <cs-pager cs-paging-pagesize="@Model.PageSize"
+              cs-paging-pagenumber="@Model.PageNumber"
+              cs-paging-totalitems="@Model.TotalItems"
+              cs-pagenumber-param="pageNumber"
+              asp-controller="Attendance"
+              asp-action="Index"
+              cs-pager-li-current-class="page-item active"
+              cs-pager-li-other-class="page-item"
+              cs-pager-li-non-active-class="page-item disabled"
+              cs-pager-link-current-class="page-link"
+              cs-pager-link-other-class="page-link">
+
+    </cs-pager>
+</div>
